@@ -66,6 +66,11 @@ const StudentCard = ({ student }: StudentCardProps) => {
             <p className="text-sm font-medium text-muted-foreground">University</p>
             <p className="text-base font-semibold text-foreground">{student.university}</p>
           </div>
+
+          <div className="space-y-2">
+            <p className="text-sm font-medium text-muted-foreground">marks</p>
+            <p className="text-base font-semibold text-foreground">{student.marks}</p>
+          </div>
           
           <div className="space-y-2">
             <p className="text-sm font-medium text-muted-foreground">Email</p>
