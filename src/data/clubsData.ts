@@ -22,7 +22,7 @@ export const clubsData: Club[] = [
     members: 45,
     nextEvent: "Mar 15",
     meetingSchedule: "Every Tuesday and Thursday, 3:30-5:30 PM",
-    faculty: "Dr. SAI",
+    faculty: "Mr. SAI",
     requirements: ["Interest in engineering", "Basic programming knowledge helpful but not required"],
   },
   {
