@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import ClubCard from "@/components/ClubCard";
+import StudentCard from "@/components/StudentCard";
 import Navbar from "@/components/Navbar";
-import { clubsData, announcementsData } from "@/data/clubsData";
+import { announcementsData } from "@/data/clubsData";
+import { studentsData } from "@/data/studentsData";
 import { ArrowRight, Calendar, Users, Bell, Target } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/clubhub-hero.jpg";
@@ -10,7 +11,6 @@ import clubsPattern from "@/assets/clubs-pattern.jpg";
 import eventsBg from "@/assets/events-bg.jpg";
 
 const Index = () => {
-  const featuredClubs = clubsData.slice(0, 3);
   const recentAnnouncements = announcementsData.slice(0, 3);
 
   return (
@@ -98,8 +98,8 @@ const Index = () => {
               <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-primary/20 shadow-lg transition-all duration-500 group-hover:rotate-12">
                 <Users className="h-7 w-7 text-primary" />
               </div>
-              <div className="text-3xl font-bold text-foreground">{clubsData.length}+</div>
-              <div className="text-muted-foreground">Active Clubs</div>
+              <div className="text-3xl font-bold text-foreground">{studentsData.length}</div>
+              <div className="text-muted-foreground">Students</div>
             </div>
             <div className="animate-fade-in backdrop-blur-sm bg-card/80 p-6 rounded-2xl transition-all duration-500 hover:scale-110 hover:shadow-glow hover:-translate-y-2" style={{ animationDelay: '0.1s' }}>
               <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-accent/20 shadow-lg transition-all duration-500 group-hover:rotate-12">
@@ -119,7 +119,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Featured Clubs */}
+      {/* Student PRN Directory */}
       <section className="py-16 md:py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/5" />
         <div className="absolute inset-0 opacity-10">
@@ -127,25 +127,21 @@ const Index = () => {
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="mb-12 text-center">
-            <h2 className="mb-3 text-3xl md:text-4xl">Featured Clubs</h2>
+            <h2 className="rainbow-text text-4xl md:text-5xl font-bold mb-4">Student Directory</h2>
             <p className="text-lg text-muted-foreground">
-              Discover some of our most popular and active student organizations
+              Click on any PRN to view detailed student information
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            {featuredClubs.map((club, index) => (
-              <div key={club.id} style={{ animationDelay: `${index * 0.1}s` }}>
-                <ClubCard {...club} />
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            {studentsData.map((student, index) => (
+              <div 
+                key={student.prn} 
+                className="animate-fade-in"
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
+                <StudentCard student={student} />
               </div>
             ))}
-          </div>
-          <div className="text-center">
-            <Link to="/clubs">
-              <Button variant="outline" size="lg" className="gap-2 transition-all duration-300 hover:scale-105 hover:shadow-glow hover:border-primary hover:text-primary">
-                <span>View All Clubs</span>
-                <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-2" />
-              </Button>
-            </Link>
           </div>
         </div>
       </section>
