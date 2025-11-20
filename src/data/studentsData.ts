@@ -6,6 +6,7 @@ export interface Student {
   section: string;
   school: string;
   university: string;
+  marks: string;
   email: string;
   hobbies: string[];
 }
@@ -19,8 +20,8 @@ export const studentsData: Student[] = [
     section: "A",
     school: "SOCI",
     university: "JOY UNIVERSITY",
+    marks: "287",
     email: "upendra.reddy@mitwpu.edu.in",
-    marks10:"580",
     hobbies: ["Coding", "Chess", "Reading", "Gaming"],
   },
   {
