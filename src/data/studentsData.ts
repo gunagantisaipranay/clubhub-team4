@@ -20,6 +20,7 @@ export const studentsData: Student[] = [
     school: "SOCI",
     university: "JOY UNIVERSITY",
     email: "upendra.reddy@mitwpu.edu.in",
+    marks10:"580",
     hobbies: ["Coding", "Chess", "Reading", "Gaming"],
   },
   {
