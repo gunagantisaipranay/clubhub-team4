@@ -62,8 +62,8 @@ const TeamMember1 = () => {
                   </div>
 
                   <div>
-                  <p className="text-sm text-muted-foregroung mb-1">10th maths</p>
-                  <p className="text-lg font-semibold">{student.10th marks}</p>
+                  <p className="text-sm text-muted-foregroung mb-1">marks</p>
+                  <p className="text-lg font-semibold">{student.marks}</p>
                   </div>
                   
                   <div className="flex items-center gap-3">
