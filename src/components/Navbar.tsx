@@ -11,14 +11,14 @@ const Navbar = () => {
   const navLinks = [
     { path: "/", label: "Home", icon: Users },
     { path: "/team/upendra-reddy", label: "D. Upendra Reddy-2025BTAM031", icon: Users },
-    { path: "/team/sai-pranay", label: "G. Sai Pranay-2025BTAM032", icon: Calendar },
-    { path: "/team/sahithi", label: "P. Sahithi-2025BTAM033", icon: Bell },
+    { path: "/team/sai-pranay", label: "G. Sai Pranay-2025BTAM032", icon: Users },
+    { path: "/team/sahithi", label: "P. Sahithi-2025BTAM033", icon: Users },
     { path: "/team/hachitra", label: "L. Hachitra-2025BTAM034", icon: Users },
-    { path: "/team/vishnu-vardhan", label: "M. Vishnu Vardhan-2025BTAM035", icon: Calendar },
-    { path: "/team/karthik", label: "S. Karthik-2025BTAM036", icon: Bell },
+    { path: "/team/vishnu-vardhan", label: "M. Vishnu Vardhan-2025BTAM035", icon: Users },
+    { path: "/team/karthik", label: "S. Karthik-2025BTAM036", icon: Users },
     { path: "/team/sindhu", label: "Y. Sindhu-2025BTAM037", icon: Users },
-    { path: "/team/sai", label: "K. Sai-2025BTAM038", icon: Calendar },
-    { path: "/team/ganga-reddy", label: "B. Ganga Adhi Kesava Reddy-2025BTAM039", icon: Bell },
+    { path: "/team/sai", label: "K. Sai-2025BTAM038", icon:Users  },
+    { path: "/team/ganga-reddy", label: "B. Ganga Adhi Kesava Reddy-2025BTAM039", icon: Users },
     { path: "/team/mohan-krishna", label: "R. Mohan Krishna-2025BTAM040", icon: Users },
   ];
 
