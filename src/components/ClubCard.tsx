@@ -18,7 +18,7 @@ const ClubCard = ({ id, name, description, category, members, image, nextEvent }
   return (
     <Card className="group overflow-hidden transition-all duration-500 hover:shadow-glow hover:-translate-y-2 hover:scale-[1.02] animate-fade-in border-2 hover:border-primary/50 relative">
       {/* Animated glow effect */}
-      <div className="absolute -inset-1 bg-gradient-to-r from-primary via-accent to-secondary rounded-lg opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-500" />
+      <div className="absolute -inset-1 bg-gradient-to-r from-primary via-accent to-secondary rounded-lg opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-500 pointer-events-none" />
       
       {image && (
         <div className="aspect-video w-full overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20 relative">
