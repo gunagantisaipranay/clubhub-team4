@@ -60,6 +60,11 @@ const TeamMember5 = () => {
                     <p className="text-sm text-muted-foreground mb-1">University</p>
                     <p className="text-lg font-semibold">{student.university}</p>
                   </div>
+
+                  <div>
+                    <p className="text-sm text-muted-foreground mb-1">marks</p>
+                    <p className="text-lg font-semibold">{student.marks}</p>
+                  </div>
                   
                   <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5 text-primary" />
