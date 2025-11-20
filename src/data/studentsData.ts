@@ -6,6 +6,7 @@ export interface Student {
   section: string;
   school: string;
   university: string;
+  10 marks: string;
   email: string;
   hobbies: string[];
 }
@@ -19,8 +20,8 @@ export const studentsData: Student[] = [
     section: "A",
     school: "SOCI",
     university: "JOY UNIVERSITY",
+    10 marks:"580",
     email: "upendra.reddy@mitwpu.edu.in",
-    marks10:"580",
     hobbies: ["Coding", "Chess", "Reading", "Gaming"],
   },
   {
@@ -31,6 +32,7 @@ export const studentsData: Student[] = [
     section: "A",
     school: "SOCI",
     university: "JOY UNIVERSITY",
+    10 marks: "599",
     email: "sai.pranay@mitwpu.edu.in",
     hobbies: ["Photography", "Music", "Sports", "Traveling"],
   },
@@ -42,6 +44,7 @@ export const studentsData: Student[] = [
     section: "A",
     school: "SOCI",
     university: "JOY UNVERSITY",
+    10 marks: "408",
     email: "sahithi.p@mitwpu.edu.in",
     hobbies: ["Dancing", "Painting", "Writing", "Yoga"],
   },
@@ -53,6 +56,7 @@ export const studentsData: Student[] = [
     section: "A",
     school: "SOCI ",
     university: "JOY UNIVERSITY",
+    10 marks:"409",
     email: "hachitra.l@mitwpu.edu.in",
     hobbies: ["Singing", "Cooking", "Reading", "Sketching"],
   },
@@ -64,6 +68,7 @@ export const studentsData: Student[] = [
     section: "A",
     school: "SOCI",
     university: "JOY UNIVERSITY",
+    10 marks: "590",
     email: "vishnu.vardhan@mitwpu.edu.in",
     hobbies: ["Cricket", "Movies", "Gaming", "Cycling"],
   },
@@ -75,6 +80,7 @@ export const studentsData: Student[] = [
     section: "A",
     school: "SOCI",
     university: "JOY UNIVERSITY",
+    10 marks: "579",
     email: "karthik.s@mitwpu.edu.in",
     hobbies: ["Football", "Coding", "Music", "Photography"],
   },
@@ -86,6 +92,7 @@ export const studentsData: Student[] = [
     section: "A",
     school: "SOCI",
     university: "JOY UNIVERSITY",
+    10 marks: "398",
     email: "sindhu.y@mitwpu.edu.in",
     hobbies: ["Badminton", "Drawing", "Traveling", "Reading"],
   },
@@ -97,6 +104,7 @@ export const studentsData: Student[] = [
     section: "A",
     school: "SOCI",
     university: "JOY UNIVERSITY",
+    10 marks: "558",
     email: "sai.k@mitwpu.edu.in",
     hobbies: ["Basketball", "Gaming", "Music Production", "Swimming"],
   },
@@ -108,6 +116,7 @@ export const studentsData: Student[] = [
     section: "A",
     school: " SOCI ",
     university: "JOY UNIVERSITY",
+    10 marks: "569",
     email: "ganga.reddy@mitwpu.edu.in",
     hobbies: ["Volleyball", "Guitar", "Blogging", "Fitness"],
   },
@@ -119,6 +128,7 @@ export const studentsData: Student[] = [
     section: "A",
     school: "SOCI ",
     university: "JOY UNIVERSITY",
+    10 marks: "567",
     email: "mohan.krishna@mitwpu.edu.in",
     hobbies: ["Tennis", "Programming", "Chess", "Astronomy"],
   },
