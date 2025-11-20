@@ -91,7 +91,7 @@ export const studentsData: Student[] = [
     section: "A",
     school: "SOCI",
     university: "JOY UNIVERSITY",
-    marks: "-305",
+    marks: "-777",
     email: "sindhu.y@mitwpu.edu.in",
     hobbies: ["Badminton", "Drawing", "Traveling", "Reading"],
   },
