@@ -32,7 +32,7 @@ export const studentsData: Student[] = [
     section: "A",
     school: "SOCI",
     university: "JOY UNIVERSITY",
-    marks: "999+",
+    marks: "1000+",
     email: "sai.pranay@mitwpu.edu.in",
     hobbies: ["Photography", "Music", "Sports", "Traveling"],
   },
