@@ -38,7 +38,7 @@ const StudentCard = ({ student }: StudentCardProps) => {
           <DialogTitle className="rainbow-text text-3xl font-bold text-center mb-2">
             {student.prn}
           </DialogTitle>
-          <DialogDescription className="text-center text-lg font-semibold text-foreground">
+          <DialogDescription className="rainbow-text text-center text-lg font-lucida text-foreground">
             {student.fullName}
           </DialogDescription>
         </DialogHeader>
@@ -69,7 +69,7 @@ const StudentCard = ({ student }: StudentCardProps) => {
 
           <div className="space-y-2">
             <p className="text-sm font-medium text-muted-foreground">marks</p>
-            <p className="text-base font-semibold text-foreground">{student.marks}</p>
+            <p className="rainbow-text text-base font-semibold text-foreground">{student.marks}</p>
           </div>
           
           <div className="space-y-2">
