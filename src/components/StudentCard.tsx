@@ -11,6 +11,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
+import { image } from "@src/assets/5829c01dfbdc6e159b82d2f821aeffb8.jpg";
 
 interface StudentCardProps {
   student: Student;
