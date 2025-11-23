@@ -72,7 +72,7 @@ const TeamMember2 = () => {
                   </div>
 
                   <div>
-                  <p className="text-sm text-muted-foregroung mb-1">marks</p>
+                  <p className="text-sm text-muted-foreground mb-1">marks</p>
                   <p className="rainbow-text text-lg font-semibold">{student.marks}</p>
                   </div>
                   
