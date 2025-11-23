@@ -11,6 +11,10 @@ const TeamMember2 = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <main className="container mx-auto px-4 py-20">
+        <img src={heroimage}
+          alt ="student.prn"
+          className="h-80 w-50 object-background opacity-80 
+          />
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
             <h1 className="rainbow-text text-5xl md:text-6xl font-bold mb-4">
