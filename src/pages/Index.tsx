@@ -122,7 +122,7 @@ const Index = () => {
       {/* Student PRN Directory */}
       <section className="py-8 md:py-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/5" />
-        <div className="absolute inset-0 opacity-500">
+        <div className="absolute inset-0 opacity-50">
           <img src={clubsPattern} alt="" className="h-full w-full object-cover" />
         </div>
         <div className="container rainbow-border mx-auto px-4 relative z-10">
