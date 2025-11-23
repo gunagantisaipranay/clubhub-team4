@@ -19,12 +19,12 @@ const Index = () => {
       
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 gradient-hero opacity-80" />
+        <div className="absolute inset-0 gradient-hero opacity-100" />
         <div className="absolute inset-0">
           <img 
             src={heroImage} 
             alt="ClubHub - Students collaborating" 
-            className="h-full w-full object-cover opacity-30 animate-slow-zoom"
+            className="h-full w-full object-cover opacity-50 animate-slow-zoom"
           />
         </div>
         {/* Floating animated shapes */}
