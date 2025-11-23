@@ -24,7 +24,7 @@ const Index = () => {
           <img 
             src={heroImage} 
             alt="ClubHub - Students collaborating" 
-            className="h-full w-full object-cover opacity-50 animate-slow-zoom"
+            className="h-full w-full object-cover opacity-100 animate-slow-zoom"
           />
         </div>
         {/* Floating animated shapes */}
