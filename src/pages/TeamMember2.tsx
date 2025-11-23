@@ -3,7 +3,7 @@ import { studentsData } from "@/data/studentsData";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Mail, User, School, Calendar } from "lucide-react";
-
+import { image } from "@/src/assets/5829c01dfbdc6e159b82d2f821aeffb8.jpg";
 const TeamMember2 = () => {
   const student = studentsData[1];
   
