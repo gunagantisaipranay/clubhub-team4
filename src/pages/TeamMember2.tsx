@@ -2,30 +2,14 @@ import Navbar from "@/components/Navbar";
 import { studentsData } from "@/data/studentsData";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import heroImage from "@/assets/5829c01dfbdc6e159b82d2f821aeffb8.jpg";
 import { Mail, User, School, Calendar } from "lucide-react";
+import { image } from "@/src/assets/5829c01dfbdc6e159b82d2f821aeffb8.jpg";
 const TeamMember2 = () => {
   const student = studentsData[1];
   
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <section className="relative overflow-hidden">
-        < className="absolute inset-0 divgradient-hero opacity-70" />
-        <div className="absolute inset-0">
-          <img 
-            src={heroImage} 
-            alt="ClubHub - Students collaborating" 
-            className="h-full w-full object-cover opacity-80 animate-slow-zoom"
-          />
-        </div>
-        {/* Floating animated shapes */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full animate-float blur-xl" style={{ animationDelay: '0s' }} />
-          <div className="absolute top-40 right-20 w-32 h-32 bg-accent/20 rounded-full animate-float blur-xl" style={{ animationDelay: '1s' }} />
-          <div className="absolute bottom-32 left-1/4 w-24 h-24 bg-secondary/20 rounded-full animate-float blur-xl" style={{ animationDelay: '2s' }} />
-          <div className="absolute bottom-20 right-1/3 w-28 h-28 bg-primary/20 rounded-full animate-float blur-xl" style={{ animationDelay: '0.5s' }} />
-        </div>
       <main className="container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
@@ -78,7 +62,7 @@ const TeamMember2 = () => {
                   </div>
 
                   <div>
-                  <p className="text-sm text-muted-foreground mb-1">marks</p>
+                  <p className="text-sm text-muted-foregroung mb-1">marks</p>
                   <p className="rainbow-text text-lg font-semibold">{student.marks}</p>
                   </div>
                   

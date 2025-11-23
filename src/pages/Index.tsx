@@ -19,12 +19,12 @@ const Index = () => {
       
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 gradient-hero opacity-70" />
+        <div className="absolute inset-0 gradient-hero opacity-100" />
         <div className="absolute inset-0">
           <img 
             src={heroImage} 
             alt="ClubHub - Students collaborating" 
-            className="h-full w-full object-cover opacity-80 animate-slow-zoom"
+            className="h-full w-full object-cover opacity-50 animate-slow-zoom"
           />
         </div>
         {/* Floating animated shapes */}
@@ -58,7 +58,7 @@ const Index = () => {
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text',
               textShadow: '0 4px 12px rgba(255, 107, 157, 0.3)',
-              filter: 'rainbow (0 0 30px rgba(192, 111, 255, 0.4))',
+              filter: 'drop-shadow(0 0 30px rgba(192, 111, 255, 0.4))',
               animationDelay: '0.3s'
             }}>
               CLUBHUB - Where Students Bond Together
@@ -66,7 +66,7 @@ const Index = () => {
             <h1 className="rainbow-text text-4xl md:text-6xl">
               Discover Your Passion
             </h1>
-            <p className="rainbow-text mb-8 text-lg md:text-xl opacity-80">
+            <p className="mb-8 text-lg md:text-xl opacity-90">
               Join vibrant student clubs, participate in exciting events, and connect with peers who share your interests. Your journey starts here.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -120,12 +120,12 @@ const Index = () => {
       </section>
 
       {/* Student PRN Directory */}
-      <section className="py-8 md:py-16 relative rainbow-hidden">
+      <section className="py-16 md:py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/5" />
-        <div className="absolute inset-0 opacity-80">
+        <div className="absolute inset-0 opacity-20">
           <img src={clubsPattern} alt="" className="h-full w-full object-cover" />
         </div>
-        <div className="rainbow-container mx-auto px-4 relative z-6">
+        <div className="container mx-auto px-4 relative z-10">
           <div className="mb-12 text-center">
             <h2 className="rainbow-text text-4xl md:text-5xl font-bold mb-4">Student Directory</h2>
             <p className="text-lg text-muted-foreground">
