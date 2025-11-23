@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Student } from "@/data/studentsData";
 import { User } from "lucide-react";
+import { image } from "@src/assets/5829c01dfbdc6e159b82d2f821aeffb8.jpg";
 import {
   Dialog,
   DialogContent,
