@@ -66,7 +66,7 @@ const Index = () => {
             <h1 className="rainbow-text text-4xl md:text-6xl">
               Discover Your Passion
             </h1>
-            <p className="mb-8 text-lg md:text-xl opacity-90">
+            <p className="rainbow-text mb-8 text-lg md:text-xl opacity-80">
               Join vibrant student clubs, participate in exciting events, and connect with peers who share your interests. Your journey starts here.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
