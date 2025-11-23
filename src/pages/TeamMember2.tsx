@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import { studentsData } from "@/data/studentsData";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import heroImage from "@/assets/5829c01dfbdc6e159b82d2f821aeffb8.jpg";
 import { Mail, User, School, Calendar } from "lucide-react";
 const TeamMember2 = () => {
   const student = studentsData[1];
