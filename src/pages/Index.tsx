@@ -58,7 +58,7 @@ const Index = () => {
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text',
               textShadow: '0 4px 12px rgba(255, 107, 157, 0.3)',
-              filter: 'drop-shadow(0 0 30px rgba(192, 111, 255, 0.4))',
+              filter: 'rainbow (0 0 30px rgba(192, 111, 255, 0.4))',
               animationDelay: '0.3s'
             }}>
               CLUBHUB - Where Students Bond Together
