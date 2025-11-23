@@ -4,7 +4,6 @@ import { clubsData } from "@/data/clubsData";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { image } from "@src/assets/5829c01dfbdc6e159b82d2f821aeffb8.jpg";
 import { Users, Calendar, Clock, GraduationCap, CheckCircle, ArrowLeft } from "lucide-react";
 
 const ClubDetail = () => {
