@@ -10,18 +10,19 @@ const TeamMember2 = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <div
-      <img src={heroimage}
-        ClassName="h-full w-80 object-cover opacity-80 animate-medium-zoom
+      <div>
+        <img src={heroImage}
+          className="h-full w-80 object-cover opacity-80 animate-medium-zoom"
         />
-        </div>
+      </div>
       <main className="container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
-                  <div
-      <img src={heroimage}
-        className="h-full w-80 object-cover opacity-80 animate-slow-zoom
-        />
+            <div>
+              <img src={heroImage}
+                className="h-full w-80 object-cover opacity-80 animate-slow-zoom"
+              />
+            </div>
             <h1 className="rainbow-text text-5xl md:text-6xl font-bold mb-4">
               {student.prn}
             </h1>
@@ -71,7 +72,7 @@ const TeamMember2 = () => {
                   </div>
 
                   <div>
-                  <p className="text-sm text-muted-foregroung mb-1">marks</p>
+                  <p className="text-sm text-muted-foreground mb-1">marks</p>
                   <p className="rainbow-text text-lg font-semibold">{student.marks}</p>
                   </div>
                   
