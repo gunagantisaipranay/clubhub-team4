@@ -3,7 +3,7 @@ import { studentsData } from "@/data/studentsData";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Mail, User, School, Calendar } from "lucide-react";
-import heroimage from "@/src/assets/5829c01dfbdc6e159b82d2f821aeffb8.jpg";
+import { image } from "@/src/assets/5829c01dfbdc6e159b82d2f821aeffb8.jpg";
 const TeamMember2 = () => {
   const student = studentsData[1];
   
@@ -13,10 +13,6 @@ const TeamMember2 = () => {
       <main className="container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
-            <img src={heroimage}
-              alt="student-prn"
-              className="h-80 w-60 object-background opacity-80 animate-slow-zoom"
-              />
             <h1 className="rainbow-text text-5xl md:text-6xl font-bold mb-4">
               {student.prn}
             </h1>

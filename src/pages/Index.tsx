@@ -6,7 +6,7 @@ import { announcementsData } from "@/data/clubsData";
 import { studentsData } from "@/data/studentsData";
 import { ArrowRight, Calendar, Users, Bell, Target } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/5829c01dfbdc6e159b82d2f821aeffb8.jpg";
+import heroImage from "@/assets/clubhub-hero.jpg";
 import clubsPattern from "@/assets/clubs-pattern.jpg";
 import eventsBg from "@/assets/events-bg.jpg";
 
@@ -19,12 +19,12 @@ const Index = () => {
       
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 gradient-hero opacity-100" />
+        <div className="absolute inset-0 gradient-hero opacity-80" />
         <div className="absolute inset-0">
           <img 
             src={heroImage} 
             alt="ClubHub - Students collaborating" 
-            className="h-full w-full object-cover opacity-50 animate-slow-zoom"
+            className="h-full w-full object-cover opacity-30 animate-slow-zoom"
           />
         </div>
         {/* Floating animated shapes */}
@@ -49,7 +49,7 @@ const Index = () => {
               letterSpacing: '0.15em',
               fontWeight: 900
             }}>
-              foc-mini project
+              FOC-Mini-PrOject
             </h2>
             <h3 className="mb-6 text-3xl md:text-5xl font-extrabold tracking-tight animate-fade-in" style={{ 
               fontFamily: "'Poppins', sans-serif",
@@ -59,11 +59,11 @@ const Index = () => {
               backgroundClip: 'text',
               textShadow: '0 4px 12px rgba(255, 107, 157, 0.3)',
               filter: 'drop-shadow(0 0 30px rgba(192, 111, 255, 0.4))',
-              animationDelay: '0.3s'
+              animationDelay: '0.2s'
             }}>
               CLUBHUB - Where Students Bond Together
             </h3>
-            <h1 className="rainbow-text text-4xl md:text-6xl">
+            <h1 className="mb-6 text-4xl md:text-6xl">
               Discover Your Passion
             </h1>
             <p className="mb-8 text-lg md:text-xl opacity-90">
@@ -98,7 +98,7 @@ const Index = () => {
               <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-primary/20 shadow-lg transition-all duration-500 group-hover:rotate-12">
                 <Users className="h-7 w-7 text-primary" />
               </div>
-              <div className="rainbow-text text-3xl font-bold text-foreground">{studentsData.length}</div>
+              <div className="text-3xl font-bold text-foreground">{studentsData.length}</div>
               <div className="text-muted-foreground">Students</div>
             </div>
             <div className="animate-fade-in backdrop-blur-sm bg-card/80 p-6 rounded-2xl transition-all duration-500 hover:scale-110 hover:shadow-glow hover:-translate-y-2" style={{ animationDelay: '0.1s' }}>
