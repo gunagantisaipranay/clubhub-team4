@@ -10,14 +10,18 @@ const TeamMember2 = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <div>
+      <div
       <img src={heroimage}
-        ClassName="h-full w-ull object-cover op[acity-80 animate-medium-zoom
+        ClassName="h-full w-80 object-cover opacity-80 animate-medium-zoom
         />
         </div>
       <main className="container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
+                  <div
+      <img src={heroimage}
+        className="h-full w-80 object-cover opacity-80 animate-slow-zoom
+        />
             <h1 className="rainbow-text text-5xl md:text-6xl font-bold mb-4">
               {student.prn}
             </h1>
