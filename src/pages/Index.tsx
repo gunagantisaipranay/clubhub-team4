@@ -36,34 +36,12 @@ const Index = () => {
         </div>
         <div className="container relative mx-auto px-4 py-24 md:py-32">
           <div className="mx-auto max-w-3xl text-center text-white animate-fade-in">
-            <h2 className="mb-4 rainbow-text text-3x1 md:text-5xl font-extrabold tracking-wider animate-fade-in" style={{ 
-              fontFamily: "'Courier New', monospace", 
-              background: 'linear-gradient(90deg, #FF0080 0%, #FF8C00 14%, #FFD700 28%, #00FF00 42%, #00CED1 57%, #1E90FF 71%, #9400D3 85%, #FF1493 100%)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text',
-              backgroundSize: '200% auto',
-              animation: 'rainbow-dash 3s linear infinite',
-              textShadow: 'none',
-              filter: 'drop-shadow(0 0 20px rgba(255, 0, 128, 0.5)) drop-shadow(0 0 40px rgba(0, 206, 209, 0.3))',
-              letterSpacing: '0.15em',
-              fontWeight: '2000',
-            }}>
+            <h2 className="mb-4 rainbow-text text-2x1 md:text-6xl font-extrabold ">
              FOC-MINI PROJECT 
             </h2>
             <p className="mb-4 rainbow-text text-2x1 md:5x1 font-bold ">
                         By Team4</p>
-            <h3 className="mb-6 rainbow-text text-3xl md:text-5xl font-extrabold tracking-wider animate-fade-in" style={{ 
-              fontFamily: "'Poppins', sans-serif",
-              background: 'linear-gradient(135deg, #FF6B9D 12%, #C06FFF 50%, #4ECDC4 50%)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              animation: 'rainbow-dash 2s linear infinity',
-              backgroundClip: 'text',
-              textShadow: 'none',
-              filter: 'rainbow-dash(0 0 30px rgba(192, 111, 255, 0.4))',
-              animationDelay: '0.2s'
-            }}>
+            <h3 className="mb-6 rainbow-text text-4xl md:text-6xl font-extrabold ">
               CLUBHUB - Where Students Bond Together
             </h3>
             <h1 className="mb-6 rainbow-text text-4xl md:text-6xl">
