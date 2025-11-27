@@ -36,7 +36,7 @@ const Index = () => {
         </div>
         <div className="container relative mx-auto px-4 py-24 md:py-32">
           <div className="mx-auto max-w-3xl text-center text-white animate-fade-in">
-            <h2 className="mb-3 text-lg md:text-3xl font-bold tracking-wider animate-fade-in" style={{ 
+            <h2 className="mb-4 rainbow-text md:text-4xl font-extrabold tracking-wider animate-fade-in" style={{ 
               fontFamily: "'Courier New', monospace", 
               background: 'linear-gradient(90deg, #FF0080 0%, #FF8C00 14%, #FFD700 28%, #00FF00 42%, #00CED1 57%, #1E90FF 71%, #9400D3 85%, #FF1493 100%)',
               WebkitBackgroundClip: 'text',
@@ -52,15 +52,15 @@ const Index = () => {
              FOC-MINI PROJECT 
                           By Team4
             </h2>
-            <h3 className="mb-6 rainboiw-text text-3xl md:text-5xl font-extrabold tracking-tight animate-rainbow-dash" style={{ 
+            <h3 className="mb-6 rainboiw-text text-3xl md:text-5xl font-extrabold tracking-tight animate-fade-in" style={{ 
               fontFamily: "'Poppins', sans-serif",
-              background: 'rainbow-dash(135deg, #FF6B9D 0%, #C06FFF 50%, #4ECDC4 100%)',
+              background: 'rainbow-dash(135deg, #FF6B9D 0%, #C06FFF 50%, #4ECDC4 50%)',
               animation: 'rainbow-dash 3s linear infinity',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text',
               textShadow: '0 4px 12px rgba(255, 107, 157, 0.3)',
-              filter: 'drop-shadow(0 0 30px rgba(192, 111, 255, 0.4))',
+              filter: 'rainbow-dash(0 0 30px rgba(192, 111, 255, 0.4))',
               animationDelay: '0.2s'
             }}>
               CLUBHUB - Where Students Bond Together
