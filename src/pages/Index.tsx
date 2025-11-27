@@ -50,10 +50,12 @@ const Index = () => {
               fontWeight: 900
             }}>
               FOC-Mini-PrOject
+                      By Team4
             </h2>
             <h3 className="mb-6 text-3xl md:text-5xl font-extrabold tracking-tight animate-fade-in" style={{ 
               fontFamily: "'Poppins', sans-serif",
               background: 'linear-gradient(135deg, #FF6B9D 0%, #C06FFF 50%, #4ECDC4 100%)',
+              animation: 'rainbow-dash 3s linear infinity',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text',
