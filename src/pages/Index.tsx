@@ -36,7 +36,7 @@ const Index = () => {
         </div>
         <div className="container relative mx-auto px-4 py-24 md:py-32">
           <div className="mx-auto max-w-3xl text-center text-white animate-fade-in">
-            <h2 className="mb-3 text-lg md:text-2xl font-black tracking-wider animate-fade-in" style={{ 
+            <h2 className="mb-3 text-lg md:text-2xl font-bold tracking-wider animate-fade-in" style={{ 
               fontFamily: "'Courier New', monospace", 
               background: 'linear-gradient(90deg, #FF0080 0%, #FF8C00 14%, #FFD700 28%, #00FF00 42%, #00CED1 57%, #1E90FF 71%, #9400D3 85%, #FF1493 100%)',
               WebkitBackgroundClip: 'text',
@@ -49,10 +49,10 @@ const Index = () => {
               letterSpacing: '0.15em',
               fontWeight: 900
             }}>
-              FOC-Mini-PrOject
-                      By Team4
+             <p1>FOC-MINI PROJECT</p1>
+              <p2>          By Team4</p2>
             </h2>
-            <h3 className="mb-6 text-3xl md:text-5xl font-extrabold tracking-tight animate-fade-in" style={{ 
+            <h3 className="mb-6 rainboiw-text text-3xl md:text-5xl font-extrabold tracking-tight animate-fade-in" style={{ 
               fontFamily: "'Poppins', sans-serif",
               background: 'linear-gradient(135deg, #FF6B9D 0%, #C06FFF 50%, #4ECDC4 100%)',
               animation: 'rainbow-dash 3s linear infinity',
