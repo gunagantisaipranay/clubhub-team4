@@ -47,19 +47,19 @@ const Index = () => {
               textShadow: 'none',
               filter: 'drop-shadow(0 0 20px rgba(255, 0, 128, 0.5)) drop-shadow(0 0 40px rgba(0, 206, 209, 0.3))',
               letterSpacing: '0.15em',
-              fontWeight: 1100
+              fontWeight: 1500
             }}>
              FOC-MINI PROJECT 
                           By Team4
             </h2>
-            <h3 className="mb-6 rainboiw-text text-3xl md:text-5xl font-extrabold tracking-tight animate-fade-in" style={{ 
+            <h3 className="mb-6 rainbow-text text-3xl md:text-5xl font-extrabold tracking-tight animate-fade-in" style={{ 
               fontFamily: "'Poppins', sans-serif",
-              background: 'rainbow-dash(135deg, #FF6B9D 0%, #C06FFF 50%, #4ECDC4 50%)',
-              animation: 'rainbow-dash 3s linear infinity',
+              background: 'linear-gradient(135deg, #FF6B9D 0%, #C06FFF 50%, #4ECDC4 50%)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
+              animation: 'rainbow-dash 2s linear infinity',
               backgroundClip: 'text',
-              textShadow: '0 4px 12px rgba(255, 107, 157, 0.3)',
+              textShadow: 'none',
               filter: 'rainbow-dash(0 0 30px rgba(192, 111, 255, 0.4))',
               animationDelay: '0.2s'
             }}>
@@ -68,7 +68,7 @@ const Index = () => {
             <h1 className="mb-6 text-4xl md:text-6xl">
               Discover Your Passion
             </h1>
-            <p className="mb-8 text-lg md:text-xl opacity-90">
+            <p className="mb-8 text-lg md:text-xl animate-fade-in opacity-90">
               Join vibrant student clubs, participate in exciting events, and connect with peers who share your interests. Your journey starts here.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
