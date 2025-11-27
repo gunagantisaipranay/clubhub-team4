@@ -36,15 +36,15 @@ const Index = () => {
         </div>
         <div className="container relative mx-auto px-4 py-24 md:py-32">
           <div className="mx-auto max-w-3xl text-center text-white animate-fade-in">
-            <h2 className="mb-4 rainbow-text text-2x1 md:text-6xl font-extrabold ">
+            <h2 className="mb-4 font-color:light_red text-2x1 md:text-6xl font-extrabold ">
              FOC-MINI PROJECT 
             </h2>
-            <p className="mb-4 rainbow-text text-2x1 md:5x1 font-bold ">
+            <p className="mb-4 text-2x1 md:5x1 font-bold font-color:green ">
                         By Team4</p>
-            <h3 className="mb-6 rainbow-text text-4xl md:text-6xl font-extrabold ">
+            <h3 className="mb-6 rainbow-text text-4xl md:text-6xl font-weight:42px font-extrabold ">
               CLUBHUB - Where Students Bond Together
             </h3>
-            <h1 className="mb-6 rainbow-text text-4xl md:text-6xl">
+            <h1 className="mb-6 font-color:black_shade text-4xl md:text-6xl">
               Discover Your Passion
             </h1>
             <p className="mb-8 text-lg md:text-xl animate-fade-in opacity-90">
